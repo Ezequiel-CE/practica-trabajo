@@ -1,0 +1,33 @@
+.layout {
+  min-height: 100% !important;
+
+  .ant-layout-header {
+    background-color: #274d70;
+  }
+}
+
+.header {
+  padding: 40px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 7px 22px -9px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 7px 22px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 7px 22px -9px rgba(0, 0, 0, 0.75);
+  margin-bottom: 50px;
+
+  h1 {
+    padding-top: 10px;
+    font-size: 46px;
+    font-weight: 800;
+    color: white;
+  }
+}
+
+.ant-modal-title {
+  text-align: center;
+}
+
+.no-background {
+  background: none;
+}
